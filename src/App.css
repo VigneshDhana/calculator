@@ -1,0 +1,32 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.top{
+  width: 415px;
+  display: flex;
+}
+input{
+  width: 300px;
+}
+.reset{
+  background-color: rgb(39, 85, 85);
+  margin: 0 0 0 7px;
+  width: 200px;
+  color: white;
+}
+td{
+  background-color: rgb(39, 85, 85);
+  width: 100px;
+  color: white;
+}
+.reset:hover{
+  background-color: rgb(118, 247, 247);
+    color: black;
+}
+td:hover{
+  background-color: rgb(118, 247, 247);
+  color: black;
+}
